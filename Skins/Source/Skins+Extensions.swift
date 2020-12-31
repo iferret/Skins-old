@@ -31,7 +31,7 @@ extension SkinsCompatibleValue {
 /// SkinsWrapper
 public struct SkinsWrapper<Base> {
     /// Base
-    internal let base: Base
+    public let base: Base
     /// 构建
     /// - Parameter base: Base
     public init(_ base: Base) {
