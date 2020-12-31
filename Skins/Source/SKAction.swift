@@ -17,7 +17,7 @@ extension SKAction {
 }
 
 public class SKAction: NSObject {
-    typealias Key = NSString
+    public typealias Key = NSString
     
     /// SKColor
     public var color: SKColor? {
