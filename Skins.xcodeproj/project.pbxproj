@@ -1,0 +1,544 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C7C334D2259D862700BD60CF /* SKColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C334A4259D862700BD60CF /* SKColor+Extensions.swift */; };
+		C7C334D3259D862700BD60CF /* Skins+UserInterfaceStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C334A5259D862700BD60CF /* Skins+UserInterfaceStyle.swift */; };
+		C7C334D4259D862700BD60CF /* UIColor+Skins.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C334A6259D862700BD60CF /* UIColor+Skins.swift */; };
+		C7C334D5259D862700BD60CF /* Skins.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C334A7259D862700BD60CF /* Skins.swift */; };
+		C7C334D6259D862700BD60CF /* skins.default.plist in Resources */ = {isa = PBXBuildFile; fileRef = C7C334A8259D862700BD60CF /* skins.default.plist */; };
+		C7C334D7259D862700BD60CF /* Skins+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C334A9259D862700BD60CF /* Skins+Extensions.swift */; };
+		C7C334D8259D862700BD60CF /* SKColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C334AA259D862700BD60CF /* SKColor.swift */; };
+		C7C334D9259D862700BD60CF /* UIRefreshControl+Skins.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C334AC259D862700BD60CF /* UIRefreshControl+Skins.swift */; };
+		C7C334DA259D862700BD60CF /* CAGradientLayer+Skins.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C334AD259D862700BD60CF /* CAGradientLayer+Skins.swift */; };
+		C7C334DB259D862700BD60CF /* UIBarButtonItem+Skins.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C334AE259D862700BD60CF /* UIBarButtonItem+Skins.swift */; };
+		C7C334DC259D862700BD60CF /* UIAlertController+Skins.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C334AF259D862700BD60CF /* UIAlertController+Skins.swift */; };
+		C7C334DD259D862700BD60CF /* UIView+Skins.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C334B0259D862700BD60CF /* UIView+Skins.swift */; };
+		C7C334DE259D862700BD60CF /* UIButton+Skins.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C334B1259D862700BD60CF /* UIButton+Skins.swift */; };
+		C7C334DF259D862700BD60CF /* UITabBarAppearance+Skins.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C334B2259D862700BD60CF /* UITabBarAppearance+Skins.swift */; };
+		C7C334E0259D862700BD60CF /* UISearchTextField+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C334B3259D862700BD60CF /* UISearchTextField+Extensions.swift */; };
+		C7C334E1259D862700BD60CF /* UIToolbar+Skins.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C334B4259D862700BD60CF /* UIToolbar+Skins.swift */; };
+		C7C334E2259D862700BD60CF /* CALayer+Skins.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C334B5259D862700BD60CF /* CALayer+Skins.swift */; };
+		C7C334E3259D862700BD60CF /* UIImageView+Skins.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C334B6259D862700BD60CF /* UIImageView+Skins.swift */; };
+		C7C334E4259D862700BD60CF /* CAEmitterCell+Skins.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C334B7259D862700BD60CF /* CAEmitterCell+Skins.swift */; };
+		C7C334E5259D862700BD60CF /* UITextView+Skins.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C334B8259D862700BD60CF /* UITextView+Skins.swift */; };
+		C7C334E6259D862700BD60CF /* UIProgressView+Skins.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C334B9259D862700BD60CF /* UIProgressView+Skins.swift */; };
+		C7C334E7259D862700BD60CF /* UISwitch+Skins.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C334BA259D862700BD60CF /* UISwitch+Skins.swift */; };
+		C7C334E8259D862700BD60CF /* CAShapeLayer+Skins.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C334BB259D862700BD60CF /* CAShapeLayer+Skins.swift */; };
+		C7C334E9259D862700BD60CF /* UITabbar+Skins.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C334BC259D862700BD60CF /* UITabbar+Skins.swift */; };
+		C7C334EA259D862700BD60CF /* UIContextualAction+Skins.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C334BD259D862700BD60CF /* UIContextualAction+Skins.swift */; };
+		C7C334EB259D862700BD60CF /* UIImage+Skins.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C334BE259D862700BD60CF /* UIImage+Skins.swift */; };
+		C7C334EC259D862700BD60CF /* UINavigationBar+Skins.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C334BF259D862700BD60CF /* UINavigationBar+Skins.swift */; };
+		C7C334ED259D862700BD60CF /* UITableView+Skins.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C334C0259D862700BD60CF /* UITableView+Skins.swift */; };
+		C7C334EE259D862700BD60CF /* CATextLayer+Skins.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C334C1259D862700BD60CF /* CATextLayer+Skins.swift */; };
+		C7C334EF259D862700BD60CF /* UISearchBar+Skins.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C334C2259D862700BD60CF /* UISearchBar+Skins.swift */; };
+		C7C334F0259D862700BD60CF /* SFSafariViewController+Skins.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C334C3259D862700BD60CF /* SFSafariViewController+Skins.swift */; };
+		C7C334F1259D862700BD60CF /* UITabBarItem+Skins.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C334C4259D862700BD60CF /* UITabBarItem+Skins.swift */; };
+		C7C334F2259D862700BD60CF /* UIPageControl+Skins.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C334C5259D862700BD60CF /* UIPageControl+Skins.swift */; };
+		C7C334F3259D862700BD60CF /* UIActivityIndicatorView+Skins.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C334C6259D862700BD60CF /* UIActivityIndicatorView+Skins.swift */; };
+		C7C334F4259D862700BD60CF /* CAReplicatorLayer+Skins.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C334C7259D862700BD60CF /* CAReplicatorLayer+Skins.swift */; };
+		C7C334F5259D862700BD60CF /* UIPopoverPresentationController+Skins.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C334C8259D862700BD60CF /* UIPopoverPresentationController+Skins.swift */; };
+		C7C334F6259D862700BD60CF /* UIBarAppearance+Skins.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C334C9259D862700BD60CF /* UIBarAppearance+Skins.swift */; };
+		C7C334F7259D862700BD60CF /* UISlider+Skins.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C334CA259D862700BD60CF /* UISlider+Skins.swift */; };
+		C7C334F8259D862800BD60CF /* UITabBarItemStateAppearance+Skins.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C334CB259D862700BD60CF /* UITabBarItemStateAppearance+Skins.swift */; };
+		C7C334F9259D862800BD60CF /* UISegmentedControl+Skins.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C334CC259D862700BD60CF /* UISegmentedControl+Skins.swift */; };
+		C7C334FA259D862800BD60CF /* UITextField+Skins.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C334CD259D862700BD60CF /* UITextField+Skins.swift */; };
+		C7C334FB259D862800BD60CF /* UILabel+Skins.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C334CE259D862700BD60CF /* UILabel+Skins.swift */; };
+		C7C334FC259D862800BD60CF /* SKImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C334CF259D862700BD60CF /* SKImage.swift */; };
+		C7C334FD259D862800BD60CF /* Skins+Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C334D0259D862700BD60CF /* Skins+Error.swift */; };
+		C7C334FE259D862800BD60CF /* SKAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C334D1259D862700BD60CF /* SKAction.swift */; };
+		C7EC6553259D85B7002360AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7EC6552259D85B7002360AD /* AppDelegate.swift */; };
+		C7EC6555259D85B7002360AD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7EC6554259D85B7002360AD /* SceneDelegate.swift */; };
+		C7EC6557259D85B7002360AD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7EC6556259D85B7002360AD /* ViewController.swift */; };
+		C7EC655A259D85B7002360AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7EC6558259D85B7002360AD /* Main.storyboard */; };
+		C7EC655C259D85B7002360AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7EC655B259D85B7002360AD /* Assets.xcassets */; };
+		C7EC655F259D85B7002360AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7EC655D259D85B7002360AD /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C7C334A4259D862700BD60CF /* SKColor+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKColor+Extensions.swift"; sourceTree = "<group>"; };
+		C7C334A5259D862700BD60CF /* Skins+UserInterfaceStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Skins+UserInterfaceStyle.swift"; sourceTree = "<group>"; };
+		C7C334A6259D862700BD60CF /* UIColor+Skins.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Skins.swift"; sourceTree = "<group>"; };
+		C7C334A7259D862700BD60CF /* Skins.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Skins.swift; sourceTree = "<group>"; };
+		C7C334A8259D862700BD60CF /* skins.default.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = skins.default.plist; sourceTree = "<group>"; };
+		C7C334A9259D862700BD60CF /* Skins+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Skins+Extensions.swift"; sourceTree = "<group>"; };
+		C7C334AA259D862700BD60CF /* SKColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKColor.swift; sourceTree = "<group>"; };
+		C7C334AC259D862700BD60CF /* UIRefreshControl+Skins.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIRefreshControl+Skins.swift"; sourceTree = "<group>"; };
+		C7C334AD259D862700BD60CF /* CAGradientLayer+Skins.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CAGradientLayer+Skins.swift"; sourceTree = "<group>"; };
+		C7C334AE259D862700BD60CF /* UIBarButtonItem+Skins.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem+Skins.swift"; sourceTree = "<group>"; };
+		C7C334AF259D862700BD60CF /* UIAlertController+Skins.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIAlertController+Skins.swift"; sourceTree = "<group>"; };
+		C7C334B0259D862700BD60CF /* UIView+Skins.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Skins.swift"; sourceTree = "<group>"; };
+		C7C334B1259D862700BD60CF /* UIButton+Skins.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Skins.swift"; sourceTree = "<group>"; };
+		C7C334B2259D862700BD60CF /* UITabBarAppearance+Skins.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITabBarAppearance+Skins.swift"; sourceTree = "<group>"; };
+		C7C334B3259D862700BD60CF /* UISearchTextField+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UISearchTextField+Extensions.swift"; sourceTree = "<group>"; };
+		C7C334B4259D862700BD60CF /* UIToolbar+Skins.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIToolbar+Skins.swift"; sourceTree = "<group>"; };
+		C7C334B5259D862700BD60CF /* CALayer+Skins.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CALayer+Skins.swift"; sourceTree = "<group>"; };
+		C7C334B6259D862700BD60CF /* UIImageView+Skins.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+Skins.swift"; sourceTree = "<group>"; };
+		C7C334B7259D862700BD60CF /* CAEmitterCell+Skins.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CAEmitterCell+Skins.swift"; sourceTree = "<group>"; };
+		C7C334B8259D862700BD60CF /* UITextView+Skins.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextView+Skins.swift"; sourceTree = "<group>"; };
+		C7C334B9259D862700BD60CF /* UIProgressView+Skins.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIProgressView+Skins.swift"; sourceTree = "<group>"; };
+		C7C334BA259D862700BD60CF /* UISwitch+Skins.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UISwitch+Skins.swift"; sourceTree = "<group>"; };
+		C7C334BB259D862700BD60CF /* CAShapeLayer+Skins.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CAShapeLayer+Skins.swift"; sourceTree = "<group>"; };
+		C7C334BC259D862700BD60CF /* UITabbar+Skins.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITabbar+Skins.swift"; sourceTree = "<group>"; };
+		C7C334BD259D862700BD60CF /* UIContextualAction+Skins.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIContextualAction+Skins.swift"; sourceTree = "<group>"; };
+		C7C334BE259D862700BD60CF /* UIImage+Skins.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Skins.swift"; sourceTree = "<group>"; };
+		C7C334BF259D862700BD60CF /* UINavigationBar+Skins.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UINavigationBar+Skins.swift"; sourceTree = "<group>"; };
+		C7C334C0259D862700BD60CF /* UITableView+Skins.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+Skins.swift"; sourceTree = "<group>"; };
+		C7C334C1259D862700BD60CF /* CATextLayer+Skins.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CATextLayer+Skins.swift"; sourceTree = "<group>"; };
+		C7C334C2259D862700BD60CF /* UISearchBar+Skins.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UISearchBar+Skins.swift"; sourceTree = "<group>"; };
+		C7C334C3259D862700BD60CF /* SFSafariViewController+Skins.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SFSafariViewController+Skins.swift"; sourceTree = "<group>"; };
+		C7C334C4259D862700BD60CF /* UITabBarItem+Skins.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITabBarItem+Skins.swift"; sourceTree = "<group>"; };
+		C7C334C5259D862700BD60CF /* UIPageControl+Skins.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIPageControl+Skins.swift"; sourceTree = "<group>"; };
+		C7C334C6259D862700BD60CF /* UIActivityIndicatorView+Skins.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIActivityIndicatorView+Skins.swift"; sourceTree = "<group>"; };
+		C7C334C7259D862700BD60CF /* CAReplicatorLayer+Skins.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CAReplicatorLayer+Skins.swift"; sourceTree = "<group>"; };
+		C7C334C8259D862700BD60CF /* UIPopoverPresentationController+Skins.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIPopoverPresentationController+Skins.swift"; sourceTree = "<group>"; };
+		C7C334C9259D862700BD60CF /* UIBarAppearance+Skins.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBarAppearance+Skins.swift"; sourceTree = "<group>"; };
+		C7C334CA259D862700BD60CF /* UISlider+Skins.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UISlider+Skins.swift"; sourceTree = "<group>"; };
+		C7C334CB259D862700BD60CF /* UITabBarItemStateAppearance+Skins.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITabBarItemStateAppearance+Skins.swift"; sourceTree = "<group>"; };
+		C7C334CC259D862700BD60CF /* UISegmentedControl+Skins.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UISegmentedControl+Skins.swift"; sourceTree = "<group>"; };
+		C7C334CD259D862700BD60CF /* UITextField+Skins.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextField+Skins.swift"; sourceTree = "<group>"; };
+		C7C334CE259D862700BD60CF /* UILabel+Skins.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+Skins.swift"; sourceTree = "<group>"; };
+		C7C334CF259D862700BD60CF /* SKImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKImage.swift; sourceTree = "<group>"; };
+		C7C334D0259D862700BD60CF /* Skins+Error.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Skins+Error.swift"; sourceTree = "<group>"; };
+		C7C334D1259D862700BD60CF /* SKAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKAction.swift; sourceTree = "<group>"; };
+		C7EC654F259D85B7002360AD /* Skins.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Skins.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7EC6552259D85B7002360AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C7EC6554259D85B7002360AD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C7EC6556259D85B7002360AD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C7EC6559259D85B7002360AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C7EC655B259D85B7002360AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C7EC655E259D85B7002360AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C7EC6560259D85B7002360AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C7EC654C259D85B7002360AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C7C334A3259D860D00BD60CF /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				C7C334AB259D862700BD60CF /* Extensions */,
+				C7C334D1259D862700BD60CF /* SKAction.swift */,
+				C7C334AA259D862700BD60CF /* SKColor.swift */,
+				C7C334CF259D862700BD60CF /* SKImage.swift */,
+				C7C334A7259D862700BD60CF /* Skins.swift */,
+				C7C334D0259D862700BD60CF /* Skins+Error.swift */,
+				C7C334A9259D862700BD60CF /* Skins+Extensions.swift */,
+				C7C334A5259D862700BD60CF /* Skins+UserInterfaceStyle.swift */,
+				C7C334A6259D862700BD60CF /* UIColor+Skins.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		C7C334AB259D862700BD60CF /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C7C334AC259D862700BD60CF /* UIRefreshControl+Skins.swift */,
+				C7C334AD259D862700BD60CF /* CAGradientLayer+Skins.swift */,
+				C7C334AE259D862700BD60CF /* UIBarButtonItem+Skins.swift */,
+				C7C334AF259D862700BD60CF /* UIAlertController+Skins.swift */,
+				C7C334B0259D862700BD60CF /* UIView+Skins.swift */,
+				C7C334B1259D862700BD60CF /* UIButton+Skins.swift */,
+				C7C334B2259D862700BD60CF /* UITabBarAppearance+Skins.swift */,
+				C7C334B3259D862700BD60CF /* UISearchTextField+Extensions.swift */,
+				C7C334B4259D862700BD60CF /* UIToolbar+Skins.swift */,
+				C7C334B5259D862700BD60CF /* CALayer+Skins.swift */,
+				C7C334B6259D862700BD60CF /* UIImageView+Skins.swift */,
+				C7C334B7259D862700BD60CF /* CAEmitterCell+Skins.swift */,
+				C7C334B8259D862700BD60CF /* UITextView+Skins.swift */,
+				C7C334B9259D862700BD60CF /* UIProgressView+Skins.swift */,
+				C7C334BA259D862700BD60CF /* UISwitch+Skins.swift */,
+				C7C334BB259D862700BD60CF /* CAShapeLayer+Skins.swift */,
+				C7C334BC259D862700BD60CF /* UITabbar+Skins.swift */,
+				C7C334BD259D862700BD60CF /* UIContextualAction+Skins.swift */,
+				C7C334BE259D862700BD60CF /* UIImage+Skins.swift */,
+				C7C334BF259D862700BD60CF /* UINavigationBar+Skins.swift */,
+				C7C334C0259D862700BD60CF /* UITableView+Skins.swift */,
+				C7C334C1259D862700BD60CF /* CATextLayer+Skins.swift */,
+				C7C334C2259D862700BD60CF /* UISearchBar+Skins.swift */,
+				C7C334C3259D862700BD60CF /* SFSafariViewController+Skins.swift */,
+				C7C334C4259D862700BD60CF /* UITabBarItem+Skins.swift */,
+				C7C334C5259D862700BD60CF /* UIPageControl+Skins.swift */,
+				C7C334C6259D862700BD60CF /* UIActivityIndicatorView+Skins.swift */,
+				C7C334C7259D862700BD60CF /* CAReplicatorLayer+Skins.swift */,
+				C7C334C8259D862700BD60CF /* UIPopoverPresentationController+Skins.swift */,
+				C7C334C9259D862700BD60CF /* UIBarAppearance+Skins.swift */,
+				C7C334CA259D862700BD60CF /* UISlider+Skins.swift */,
+				C7C334CB259D862700BD60CF /* UITabBarItemStateAppearance+Skins.swift */,
+				C7C334CC259D862700BD60CF /* UISegmentedControl+Skins.swift */,
+				C7C334CD259D862700BD60CF /* UITextField+Skins.swift */,
+				C7C334CE259D862700BD60CF /* UILabel+Skins.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		C7EC6546259D85B7002360AD = {
+			isa = PBXGroup;
+			children = (
+				C7EC6551259D85B7002360AD /* Skins */,
+				C7EC6550259D85B7002360AD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C7EC6550259D85B7002360AD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C7EC654F259D85B7002360AD /* Skins.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C7EC6551259D85B7002360AD /* Skins */ = {
+			isa = PBXGroup;
+			children = (
+				C7C334A3259D860D00BD60CF /* Source */,
+				C7EC6552259D85B7002360AD /* AppDelegate.swift */,
+				C7EC6554259D85B7002360AD /* SceneDelegate.swift */,
+				C7EC6556259D85B7002360AD /* ViewController.swift */,
+				C7C334A4259D862700BD60CF /* SKColor+Extensions.swift */,
+				C7C334A8259D862700BD60CF /* skins.default.plist */,
+				C7EC6558259D85B7002360AD /* Main.storyboard */,
+				C7EC655B259D85B7002360AD /* Assets.xcassets */,
+				C7EC655D259D85B7002360AD /* LaunchScreen.storyboard */,
+				C7EC6560259D85B7002360AD /* Info.plist */,
+			);
+			path = Skins;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C7EC654E259D85B7002360AD /* Skins */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7EC6563259D85B7002360AD /* Build configuration list for PBXNativeTarget "Skins" */;
+			buildPhases = (
+				C7EC654B259D85B7002360AD /* Sources */,
+				C7EC654C259D85B7002360AD /* Frameworks */,
+				C7EC654D259D85B7002360AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Skins;
+			productName = Skins;
+			productReference = C7EC654F259D85B7002360AD /* Skins.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C7EC6547259D85B7002360AD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					C7EC654E259D85B7002360AD = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = C7EC654A259D85B7002360AD /* Build configuration list for PBXProject "Skins" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C7EC6546259D85B7002360AD;
+			productRefGroup = C7EC6550259D85B7002360AD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C7EC654E259D85B7002360AD /* Skins */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C7EC654D259D85B7002360AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7C334D6259D862700BD60CF /* skins.default.plist in Resources */,
+				C7EC655F259D85B7002360AD /* LaunchScreen.storyboard in Resources */,
+				C7EC655C259D85B7002360AD /* Assets.xcassets in Resources */,
+				C7EC655A259D85B7002360AD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C7EC654B259D85B7002360AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7C334F3259D862700BD60CF /* UIActivityIndicatorView+Skins.swift in Sources */,
+				C7C334FA259D862800BD60CF /* UITextField+Skins.swift in Sources */,
+				C7C334F8259D862800BD60CF /* UITabBarItemStateAppearance+Skins.swift in Sources */,
+				C7C334E5259D862700BD60CF /* UITextView+Skins.swift in Sources */,
+				C7C334F1259D862700BD60CF /* UITabBarItem+Skins.swift in Sources */,
+				C7C334DE259D862700BD60CF /* UIButton+Skins.swift in Sources */,
+				C7C334E7259D862700BD60CF /* UISwitch+Skins.swift in Sources */,
+				C7C334DC259D862700BD60CF /* UIAlertController+Skins.swift in Sources */,
+				C7C334E8259D862700BD60CF /* CAShapeLayer+Skins.swift in Sources */,
+				C7C334E0259D862700BD60CF /* UISearchTextField+Extensions.swift in Sources */,
+				C7EC6557259D85B7002360AD /* ViewController.swift in Sources */,
+				C7C334D3259D862700BD60CF /* Skins+UserInterfaceStyle.swift in Sources */,
+				C7C334ED259D862700BD60CF /* UITableView+Skins.swift in Sources */,
+				C7C334F6259D862700BD60CF /* UIBarAppearance+Skins.swift in Sources */,
+				C7C334FC259D862800BD60CF /* SKImage.swift in Sources */,
+				C7C334EA259D862700BD60CF /* UIContextualAction+Skins.swift in Sources */,
+				C7C334E6259D862700BD60CF /* UIProgressView+Skins.swift in Sources */,
+				C7C334D4259D862700BD60CF /* UIColor+Skins.swift in Sources */,
+				C7C334F5259D862700BD60CF /* UIPopoverPresentationController+Skins.swift in Sources */,
+				C7C334F9259D862800BD60CF /* UISegmentedControl+Skins.swift in Sources */,
+				C7C334D8259D862700BD60CF /* SKColor.swift in Sources */,
+				C7C334DF259D862700BD60CF /* UITabBarAppearance+Skins.swift in Sources */,
+				C7C334EF259D862700BD60CF /* UISearchBar+Skins.swift in Sources */,
+				C7C334E4259D862700BD60CF /* CAEmitterCell+Skins.swift in Sources */,
+				C7C334D9259D862700BD60CF /* UIRefreshControl+Skins.swift in Sources */,
+				C7C334FE259D862800BD60CF /* SKAction.swift in Sources */,
+				C7C334FD259D862800BD60CF /* Skins+Error.swift in Sources */,
+				C7EC6553259D85B7002360AD /* AppDelegate.swift in Sources */,
+				C7C334DA259D862700BD60CF /* CAGradientLayer+Skins.swift in Sources */,
+				C7C334E9259D862700BD60CF /* UITabbar+Skins.swift in Sources */,
+				C7C334FB259D862800BD60CF /* UILabel+Skins.swift in Sources */,
+				C7C334EB259D862700BD60CF /* UIImage+Skins.swift in Sources */,
+				C7C334EC259D862700BD60CF /* UINavigationBar+Skins.swift in Sources */,
+				C7C334DB259D862700BD60CF /* UIBarButtonItem+Skins.swift in Sources */,
+				C7C334D7259D862700BD60CF /* Skins+Extensions.swift in Sources */,
+				C7C334D5259D862700BD60CF /* Skins.swift in Sources */,
+				C7C334DD259D862700BD60CF /* UIView+Skins.swift in Sources */,
+				C7C334F4259D862700BD60CF /* CAReplicatorLayer+Skins.swift in Sources */,
+				C7C334F0259D862700BD60CF /* SFSafariViewController+Skins.swift in Sources */,
+				C7EC6555259D85B7002360AD /* SceneDelegate.swift in Sources */,
+				C7C334E2259D862700BD60CF /* CALayer+Skins.swift in Sources */,
+				C7C334F2259D862700BD60CF /* UIPageControl+Skins.swift in Sources */,
+				C7C334F7259D862700BD60CF /* UISlider+Skins.swift in Sources */,
+				C7C334E3259D862700BD60CF /* UIImageView+Skins.swift in Sources */,
+				C7C334E1259D862700BD60CF /* UIToolbar+Skins.swift in Sources */,
+				C7C334D2259D862700BD60CF /* SKColor+Extensions.swift in Sources */,
+				C7C334EE259D862700BD60CF /* CATextLayer+Skins.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C7EC6558259D85B7002360AD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7EC6559259D85B7002360AD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C7EC655D259D85B7002360AD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7EC655E259D85B7002360AD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C7EC6561259D85B7002360AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C7EC6562259D85B7002360AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C7EC6564259D85B7002360AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 39KMKYG6L6;
+				INFOPLIST_FILE = Skins/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.sky.tramp.Skins;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C7EC6565259D85B7002360AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 39KMKYG6L6;
+				INFOPLIST_FILE = Skins/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.sky.tramp.Skins;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C7EC654A259D85B7002360AD /* Build configuration list for PBXProject "Skins" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7EC6561259D85B7002360AD /* Debug */,
+				C7EC6562259D85B7002360AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7EC6563259D85B7002360AD /* Build configuration list for PBXNativeTarget "Skins" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7EC6564259D85B7002360AD /* Debug */,
+				C7EC6565259D85B7002360AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C7EC6547259D85B7002360AD /* Project object */;
+}
