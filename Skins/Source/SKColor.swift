@@ -9,6 +9,16 @@
 import Foundation
 import UIKit.UIColor
 
+/*
+ <key>major</key>
+ <dict>
+     <key>light</key>
+     <string>#169BD5</string>
+     <key>dark</key>
+     <string>#169BD5</string>
+ </dict>
+ */
+
 /// SKColorKey
 public typealias SKColorKey = String
 
