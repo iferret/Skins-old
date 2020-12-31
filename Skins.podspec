@@ -18,11 +18,14 @@ Pod::Spec.new do |spec|
   spec.swift_version = "5.0"
 
   spec.ios.deployment_target = "11.0"
-  spec.tvos.deployment_target = "11.0"
+  spec.ios.frameworks = 'SafariServices'
 
   spec.source       = { :git => "https://github.com/imotoboy/Skins.git", :tag => "#{spec.version}" }
 
   spec.source_files  = ["Skins/Source/**/*.swift", "Skins/*.swift"]
 
+  # 解决在xcode 12下验证不通过的问题
+  spec.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  spec.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 
 end
