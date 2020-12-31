@@ -211,7 +211,7 @@ extension Skins {
     ///   - action: SKAction
     ///   - key: SKAction.Key
     ///   - target: NSObject
-    internal func add(action: SKAction, forKey key: SKAction.Key, target: NSObject) {
+    public func add(action: SKAction, forKey key: SKAction.Key, target: NSObject) {
         objc_sync_enter(self)
         if let map = weaks.object(forKey: target) {
             map.setObject(action, forKey: key)
@@ -264,7 +264,7 @@ extension Skins {
     ///   - key: SKAction.Key
     ///   - target: NSObject
     /// - Returns: SKAction
-    internal func action(forKey key: SKAction.Key, target: NSObject) -> SKAction? {
+    public func action(forKey key: SKAction.Key, target: NSObject) -> SKAction? {
         guard let map = weaks.object(forKey: target), let action = map.object(forKey: key) else { return nil }
         return action
     }
