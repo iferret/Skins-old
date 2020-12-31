@@ -9,7 +9,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "Skins"
-  spec.version      = "0.0.4"
+  spec.version      = "0.0.5"
   spec.summary      = "Theme of UIKit"
   spec.homepage     = "https://github.com/imotoboy/Skins"
   spec.license      = { :type => "MIT", :file => "LICENSE" }
