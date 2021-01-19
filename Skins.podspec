@@ -9,7 +9,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "Skins"
-  spec.version      = "0.0.6"
+  spec.version      = "0.0.7"
   spec.summary      = "Theme of UIKit"
   spec.homepage     = "https://github.com/imotoboy/Skins"
   spec.license      = { :type => "MIT", :file => "LICENSE" }
@@ -22,7 +22,7 @@ Pod::Spec.new do |spec|
 
   spec.source       = { :git => "https://github.com/imotoboy/Skins.git", :tag => "#{spec.version}" }
 
-  spec.source_files  = ["Skins/Source/**/*.swift", "Skins/*.swift"]
+  spec.source_files  = ["Skins/Source/**/*.swift", "Skins/Source/*.swift"]
 
   # 解决在xcode 12下验证不通过的问题
   spec.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
