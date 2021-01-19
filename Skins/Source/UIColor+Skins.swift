@@ -56,7 +56,7 @@ extension UIColor {
     /// - Parameter color: SKColor
     /// - Returns: UIColor
     public static func skin(of color: SKColor) -> UIColor {
-        if #available(iOS 13.0, *) {
+        if #available(iOS 13.0, *), Skins.shared.style == .unspecified {
             return UIColor.init { (collection) -> UIColor in
                 switch collection.userInterfaceStyle {
                 case .light:
